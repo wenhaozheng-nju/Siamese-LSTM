@@ -15,7 +15,7 @@ if training==True:
         sls.train_lstm(train,375)
     else:
         sls.train_lstm(train,330)
-
+#my_test_git
 test=pickle.load(open("semtest.p",'rb'))
 print sls.chkterr2(test)
 #Example
